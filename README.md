@@ -22,13 +22,14 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features:
+Here's a walkthrough of the implemented features:
 
-<img src='https://drive.google.com/file/d/15fM6RxgUYu-gmMrxGu4rLy10iTr4lYa3/view?usp=sharing](https://drive.google.com/file/d/15fM6RxgUYu-gmMrxGu4rLy10iTr4lYa3/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[![Video Walkthrough](https://img.youtube.com/vi/15fM6RxgUYu-gmMrxGu4rLy10iTr4lYa3/0.jpg)](https://drive.google.com/file/d/15fM6RxgUYu-gmMrxGu4rLy10iTr4lYa3/view?usp=sharing)
 
 Video created with Mac Screen Recorder
 
 ## Notes
+
 
 ## Challenges that I have encountered, fixed and learned through the app. 
 
