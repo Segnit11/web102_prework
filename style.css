@@ -1,75 +1,191 @@
+/* Import custom font */
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
+/* General body styling with font, background, and color */
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    font-family: 'Garamond', serif;
+    background-color: #234E70;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
 
-#tentacles {
-    width: 50px;
-}
-
+/* Header section with centered alignment and logo */
 .header {
     display: flex;
-    background-color: lightblue;
-    padding: 1%;
     align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+    justify-content: center;
+    padding: 20px;
 }
 
+/* Logo in the header with margin and size adjustments */
+.header img#tentacles {
+    margin-right: 15px;
+    width: 50px;
+    height: auto;
+}
+
+/* Main header text styling */
+.header-text {
+    font-size: 3em;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+}
+
+/* Company info section with centered text and background color */
+.class-header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 97em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Welcome header text */
+.welcome-header {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Container styling for top games section */
+.top-games {
+    max-width: 100em;
+    margin-left: 5.5em;
+}
+
+/* Purpose text font size */
+.desc-purp {
+    font-size: 2em;
+}
+
+/* Stats section header styling */
+.stats-header {
+    margin-left: 105px;
+    color: #000;
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+/* Stats container flex styling with hover effects */
 .stats-container {
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+/* Individual stat card styling */
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #FFFDD0;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
+/* Card hover effects */
+.stats-card:hover, .game-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #89CFF0;
+}
+
+/* Additional game stats styling */
+.stats-games {
+    margin-left: 105px;
+    color: #000;
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.check-out {
+    margin-left: 105px;
+    font-size: 1.5em;
+}
+
+/* Button container for game filter buttons */
+#button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Game filter buttons styling with transitions */
+.game-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    min-width: 150px;
+    text-align: center;
+}
+
+/* Button hover and click effects */
+.game-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+.game-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.8);
+}
+
+.game-btn:active {
+    background-color: #388E3C;
+    transform: translateY(1px);
+}
+
+/* Stats section font size for numbers */
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
 }
 
+/* Game cards container styling */
 #games-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+/* Styling for game images */
 .game-img {
     width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #FFFFFF;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Game card styling with shadow and hover effects */
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #FFFDD0;
+    border: 2px solid #000;
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
-}
-
-#button-container {
-    text-align: center;
-}
-
-button {
-    font-family: 'Cabin';
-    border: none;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 7px;
 }
