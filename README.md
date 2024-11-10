@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://drive.google.com/file/d/15fM6RxgUYu-gmMrxGu4rLy10iTr4lYa3/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[https://drive.google.com/file/d/15fM6RxgUYu-gmMrxGu4rLy10iTr4lYa3/view?usp=sharing](https://drive.google.com/file/d/15fM6RxgUYu-gmMrxGu4rLy10iTr4lYa3/view?usp=sharing)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Video created with Mac Screen Recorder
 
