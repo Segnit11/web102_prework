@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Crowd Funded Game Project*
 
-Submitted by: **Your Name Here**
+Submitted by: **Segni Tulu**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Crowd Funded Game Project** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
@@ -18,27 +18,35 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
+    - [ ] I Updated the UI/UX
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://drive.google.com/file/d/15fM6RxgUYu-gmMrxGu4rLy10iTr4lYa3/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+Video created with Mac Screen Recorder
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+## Challenges that I have encountered, fixed and learned through the app. 
+
+## - Data Parsing:
+Challenge: Parsing JSON data correctly for use in the app.
+Solution: Used JSON.parse() to convert the JSON data into an array of objects for easy access and manipulation.
+
+## - Multiple Filters:
+Challenge: Managing multiple filters without conflicts.
+Solution: Created separate functions for each filter and cleared the existing content before rendering the new data.
+
+## - Accurate Calculations:
+Challenge: Updating statistics like total raised and contributions based on filtered data.
+Solution: Used reduce() to calculate totals dynamically and toLocaleString() for proper number formatting.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [CodePath] and [Segni Tulu]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
